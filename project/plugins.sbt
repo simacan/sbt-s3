@@ -1,1 +1,1 @@
-addSbtPlugin("com.simacan" % "sbt-services-parent" % "0.1.9")
+addSbtPlugin("com.simacan" % "sbt-parent" % "0.1.9")

@@ -4,7 +4,7 @@ description := "S3 Plugin for sbt"
 
 version := "0.10"
 
-isSnapshot := true
+isSnapshot := false
 
 organization := "com.simacan"
 
@@ -22,12 +22,9 @@ scalacOptions in (Compile, doc) ++=
   Opts.doc.version(version.value) ++
   Seq("-doc-root-content", (sourceDirectory.value / "main/rootdoc.txt").getAbsolutePath())
 
-publishMavenStyle := false
-
 crossSbtVersions := Seq("0.13.17", "1.1.5")
-
-bintrayRepository := "sbt-plugins"
 
 licenses += ("BSD", url("http://directory.fsf.org/wiki/License:BSD_4Clause"))
 
-bintrayOrganization := None
+val maplinkUtils = (project in file("."))
+  .enablePlugins(ParentPlugin)
