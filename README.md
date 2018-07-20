@@ -1,3 +1,5 @@
+Simacan branch of https://github.com/sbt/sbt-s3. The original plugin hasn't been released for sbt 1.x and scala 2.12 which is needed for some simacan services.
+
 # sbt-s3
 
 ## Description

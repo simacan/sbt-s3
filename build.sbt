@@ -2,11 +2,11 @@ name := "sbts3"
 
 description := "S3 Plugin for sbt"
 
-version := "0.10.4-SNAPSHOT"
+version := "0.10"
 
 isSnapshot := true
 
-organization := "cf.janga"
+organization := "com.simacan"
 
 organizationName := "Janga"
 
