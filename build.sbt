@@ -28,3 +28,5 @@ licenses += ("BSD", url("http://directory.fsf.org/wiki/License:BSD_4Clause"))
 
 val maplinkUtils = (project in file("."))
   .enablePlugins(ParentPlugin)
+
+compilerFatalWarnings := false
